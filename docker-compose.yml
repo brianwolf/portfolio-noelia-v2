@@ -7,9 +7,9 @@ networks:
 
 services:
 
-  portfolio-noelia:
-    container_name: portfolio-noelia
-    hostname: portfolio-noelia
+  portfolio-noelia-v2:
+    container_name: portfolio-noelia-v2
+    hostname: portfolio-noelia-v2
     image: docker.io/brianwolf94/portfolio-noelia-v2:latest
     restart: always
     expose:
