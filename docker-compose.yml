@@ -1,0 +1,18 @@
+name: portfolio-noelia-v2
+
+networks:
+  docker-net:
+    name: docker-net
+    external: true
+
+services:
+
+  portfolio-noelia:
+    container_name: portfolio-noelia
+    hostname: portfolio-noelia
+    image: docker.io/brianwolf94/portfolio-noelia-v2:latest
+    restart: always
+    expose:
+      - 80
+    networks:
+      - docker-net
