@@ -13,62 +13,50 @@
 
   <script src="assets/jquery/jquery-3.2.1.min.js"></script>
   <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="js/mixitup.js"></script>
+  <script src="js/script.js"></script>
 </head>
 
 <body>
-  <div id="content-wrapper">
-    <header class="header header--bg">
-      <div class="container">
-        <nav class="navbar">
-          <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-              <span class="icon-bar"></span>
-            </button>
-            <!-- <a class="navbar-brand" href="#">OBELA</a> -->
-          </div>
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav">
-              <!-- <li><a href="#content-wrapper">HOME</a></li> -->
-              <li><a href="#about">SOBRE MI</a></li>
-              <li><a href="#skill">HABILIDADES</a></li>
-              <li><a href="#links">LINKS</a></li>
-              <li><a href="#portfolio">PORFOLIO</a></li>
-              <li><a href="#certifications">CERTIFICACIONES</a></li>
-              <li><a href="#contact">CONTACTO</a></li>
-            </ul>
-          </div>
-        </nav>
-        <div class="header__content text-center">
-          <span class="header__content__block">Hola, Soy Noelia</span>
-          <h1 class="header__content__title">Una diseñadora UX</h1>
-          <ul class="header__content__sub-title">
-            <li>DISEÑADORA UI/UX <span class="padding">&#45;</span></li>
-            <li>COMMUNITY MANAGER <span class="padding">&#45;</span></li>
-            <li>FOTÓGRAFA</li>
-          </ul>
-          <!-- <a class="header__button" href="#">HAVE PROJECT? LET'S TALK</a> -->
+  <header class="header header--bg">
+    <div class="container">
+      <nav class="navbar">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
         </div>
-        <!-- <div class="social-icon pull-right">
-          <ul>
-            <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-            <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-            <li><a href="#"><i class="flaticon-behance-logo"></i></a></li>
-            <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li><a href="#about">SOBRE MI</a></li>
+            <li><a href="#skill">HABILIDADES</a></li>
+            <li><a href="#links">LINKS</a></li>
+            <li><a href="#portfolio">PORFOLIO</a></li>
+            <li><a href="#certifications">CERTIFICACIONES</a></li>
+            <li><a href="#contact">CONTACTO</a></li>
           </ul>
-        </div> -->
+        </div>
+      </nav>
+      <div class="header__content text-center">
+        <span class="header__content__block">Hola, Soy Noelia</span>
+        <h1 class="header__content__title">Una diseñadora UX</h1>
+        <ul class="header__content__sub-title">
+          <li>DISEÑADORA UI/UX <span class="padding">&#45;</span></li>
+          <li>COMMUNITY MANAGER <span class="padding">&#45;</span></li>
+          <li>FOTÓGRAFA</li>
+        </ul>
       </div>
-    </header>
+    </div>
+  </header>
 
+
+  <main>
     <section class="about" id="about">
       <div class="container about__container--narrow">
         <div class="page-section">
           <h2 class="page-section__title">SOBRE MÍ</h2>
           <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-          <!-- <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. </p> -->
           <div class="row gutters-80">
             <div class="col-md-4">
               <div class="about__image">
@@ -94,9 +82,6 @@
                   <a class="button button--colorful button--margin" href="assets/pdf/noelia-garcia-cv.pdf"
                     download>DESCARGAR CV</a>
                 </div>
-                <!-- <div class="col-md-4">
-                  <a class="button button--colorful button--margin" href="#">HIRE ME</a>
-                </div> -->
               </div>
             </div>
           </div>
@@ -109,8 +94,6 @@
         <div class="page-section">
           <h2 class="page-section__title page-section__title--white">HABILIDADES</h2>
           <img class="page-section__title-style" src="assets/images/title-style-white.png" alt="">
-          <!-- <p class="page-section__paragraph page-section__paragraph--white">Lorem ipsum dolor sit amet, consectetur
-            adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p> -->
           <div class="row gutters-60">
             <div class="col-md-4">
               <div class="thumbnail text-center">
@@ -179,13 +162,61 @@
       </div>
     </section>
 
+
+    <section class="blog" id="certifications">
+      <div class="container">
+        <div class="page-section">
+          <h2 class="page-section__title">CERTIFICACIONES</h2>
+          <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
+          <div class="row gutters-40">
+            <div class="col-md-4">
+              <div class="thumbnail text-center">
+                <img class="img-responsive" src="assets/images/certificaciones/marketing.png" alt="">
+                <a href="#">
+                  <h4 class="blog__single__title">Marketing Digital: Community Manager y Publicidad</h4>
+                </a>
+                <p class="blog__single__paragraph">Estrategias en redes sociales, SEO, email marketing, analítica y
+                  herramientas utilizadas en campañas para maximizar resultados.</p>
+                <p class="blog__single__date">26 de Febrero, 2024</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail text-center">
+                <img class="img-responsive" src="assets/images/certificaciones/photoshop.png" alt="">
+                <a href="#">
+                  <h4 class="blog__single__title">Photoshop e Illustrator Flex</h4>
+                </a>
+                <p class="blog__single__paragraph">Usod de Photoshop e Illustrator para crear piezas visuales, editar
+                  imágenes, diseñar ilustraciones y potenciar la creatividad, logrando resultados profesionales en
+                  cada
+                  proyecto.
+                </p>
+                <p class="blog__single__date">26 de Marzo, 2024</p>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="thumbnail text-center">
+                <img class="img-responsive" src="assets/images/certificaciones/html.jpg" alt="">
+                <a href="#">
+                  <h4 class="blog__single__title">Desarrollo Web</h4>
+                </a>
+                <p class="blog__single__paragraph">Construcción de sitios web singlepage completos y funcionales
+                  usando
+                  HTML y CSS</p>
+                <p class="blog__single__date">19 de Agosto, 2024</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <section class="service" id="links">
       <div class="container">
         <div class="page-section">
           <h2 class="page-section__title">LINKS</h2>
           <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-          <!-- <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. </p> -->
           <div class="col-md-4">
             <div class="thumbnail text-center">
               <img src="assets/images/website-design.png" alt="">
@@ -214,597 +245,38 @@
                 <p class="service__single-section__paragraph">Repositorio con proyectos en html</p>
               </div>
             </div>
-            <!-- <div class="col-md-4">
-              <div class="thumbnail text-center">
-                <img src="assets/images/support.png" alt="">
-                <h4 class="service__single-section__title">SUPPORT</h4>
-                <p class="service__single-section__paragraph">magna aliqua. Ut enim ad minim veniam, quis nostrud
-                  exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
-              </div>
-            </div> -->
           </div>
         </div>
       </div>
     </section>
 
-    <!-- <section class="overview overview--bg">
-      <div class="container">
-        <div class="page-section">
-          <div class="row gutters-140">
-            <div class="col-xs-6 col-lg-3 overview__single-section">
-              <i class="material-icons">headset_mic</i>
-              <h2 class="overview__single-section__number">220</h2>
-              <p class="overview__single-section__title">Hand to Work</p>
-            </div>
-            <div class="col-xs-6 col-lg-3 overview__single-section">
-              <i class="material-icons">mood</i>
-              <h2 class="overview__single-section__number">530</h2>
-              <p class="overview__single-section__title">Happy Client</p>
-            </div>
-            <div class="col-xs-6 col-lg-3 overview__single-section">
-              <i class="material-icons">assignment_turned_in</i>
-              <h2 class="overview__single-section__number">780</h2>
-              <p class="overview__single-section__title">Finished Project</p>
-            </div>
-            <div class="col-xs-6 col-lg-3 overview__single-section">
-              <i class="material-icons">local_bar</i>
-              <h2 class="overview__single-section__number">970</h2>
-              <p class="overview__single-section__title">Cups of coffe</p>
-            </div>
-          </div>
-        </div>
+
+    <div id="popup-background" class="popup-background">
+      <div class="popup-content">
+        <div id="popup-title"></div>
+        <img id="popup-image" class="popup-image">
       </div>
-    </section> -->
+    </div>
 
-    <section class="blog" id="certifications">
-      <div class="container">
-        <div class="page-section">
-          <h2 class="page-section__title">CERTIFICACIONES</h2>
-          <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-          <!-- <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. </p> -->
-          <div class="row gutters-40">
-            <div class="col-md-4">
-              <div class="thumbnail text-center">
-                <img class="img-responsive" src="assets/images/certificaciones/marketing.png" alt="">
-                <p class="blog__single__date">26 FEBRERO, 2024</p>
-                <a href="#">
-                  <h4 class="blog__single__title">Marketing Digital: Community Manager y Publicidad</h4>
-                </a>
-                <p class="blog__single__paragraph">Estrategias en redes sociales, SEO, email marketing, analítica y
-                  herramientas utilizadas en campañas para maximizar resultados.</p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail text-center">
-                <img class="img-responsive" src="assets/images/certificaciones/photoshop.png" alt="">
-                <p class="blog__single__date">26 Marzo, 2024</p>
-                <a href="#">
-                  <h4 class="blog__single__title">Photoshop e Illustrator Flex</h4>
-                </a>
-                <p class="blog__single__paragraph">Usod de Photoshop e Illustrator para crear piezas visuales, editar
-                  imágenes, diseñar ilustraciones y potenciar la creatividad, logrando resultados profesionales en cada
-                  proyecto.
-                </p>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="thumbnail text-center">
-                <img class="img-responsive" src="assets/images/certificaciones/html.jpg" alt="">
-                <p class="blog__single__date">19 Agosto, 2024</p>
-                <a href="#">
-                  <h4 class="blog__single__title">Desarrollo Web</h4>
-                </a>
-                <p class="blog__single__paragraph">Construcción de sitios web singlepage completos y funcionales usando
-                  HTML y CSS</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <div class="page-section">
-          <h2 class="page-section__title">PORFOLIO</h2>
-          <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-          <!-- <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. </p> -->
-          <!-- <div class="portfolio__button-group">
-            <a class="button button--default" data-filter="all" href="#">ALL</a>
-            <a class="button button--default" data-filter=".category-a" href="#">DEVELOPMENT</a>
-            <a class="button button--default" data-filter=".category-b" href="#">DESIGN</a>
-            <a class="button button--default" data-filter=".category-c" href="#">HTML</a>
-            <a class="button button--default" data-filter=".category-d" href="#">JAVA</a>
-          </div> -->
-
-          <div class="row gutters-40">
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a category-b category-c" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_00-41-55.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MOCKUP</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a category-c" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_00-42-03.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MATRIZ DE SIMILITUD</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-a category-c" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_00-42-12.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MOCKUP</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row gutters-40">
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b category-d" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_00-42-16.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MOCKUP</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b category-d" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_00-42-20.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MOCKUP</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-d" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_00-42-23.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MOCKUP</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row gutters-40">
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b category-d" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_00-42-27.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MOCKUP</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b category-d" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_00-42-31.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MOCKUP</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-d" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_00-57-30.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>DEMOGRAMA</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="row gutters-40">
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b category-d" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_01-00-36.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>MOCKUP</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-4">
-              <div class="portfolio__single-section mix category-b category-d" data-order="1">
-                <img class="portfolio__single-section__image img-responsive"
-                  src="assets/images/porfolio/photo_2025-02-13_01-01-49.jpg" alt="">
-                <div class="portfolio__single-section__overlay">
-                  <div class="overlay-content">
-                    <h4>DIAGRAMA DE FLUJO</h4>
-                    <p>UI/UX</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- <section class="slider slider--bg">
-      <div id="myCarousel" class="carousel container slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-
-        <div class="carousel-inner">
-          <div class="item active">
-            <div class="carousel-content">
-              <div class="">
-                <div class="text-center">
-                  <img src="assets/images/me.png" alt="">
-                  <h4>Michael T. Hill</h4>
-                  <h6>Designer</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-                  <div class="rating">
-                    <ul>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="carousel-content">
-              <div class="">
-                <div class="text-center">
-                  <img class="carousel-person-image" src="assets/images/team-2.png" alt="">
-                  <h4>Leonard D. Downing</h4>
-                  <h6>Photographer</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-                  <div class="rating">
-                    <ul>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="item">
-            <div class="carousel-content">
-              <div class="">
-                <div class="text-center">
-                  <img class="carousel-person-image" src="assets/images/team-3.png" alt="">
-                  <h4>Paula R. Mullins</h4>
-                  <h6>Designer</h6>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
-                    labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                    nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-                    esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, </p>
-                  <div class="rating">
-                    <ul>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                      <li><i class="material-icons">star</i></li>
-                    </ul>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section class="team" id="team">
-      <div class="container">
-        <div class="page-section">
-          <h2 class="page-section__title">MY TEAM</h2>
-          <img class="page-section__title-style" src="assets/images/title-style.png" alt="">
-          <p class="page-section__paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-            tempor incididunt ut labore et dolore magna aliqua. </p>
-          <div class="row gutters-40">
-            <div class="col-md-6 col-lg-3">
-              <div class="thumbnail">
-                <img class="img-responsive" src="assets/images/team-1.png" alt="">
-                <h4 class="team__single-section__name">VIOLET R. PETERS</h4>
-                <p class="team__single-section__title">FOUNDER</p>
-
-                <div class="team__overlay">
-                  <div class="team__overlay__content">
-                    <div class="team__single-section--backPage">
-                      <h4 style="padding-left: 0;" class="team__single-section__name">VIOLET R. PETERS</h4>
-                      <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                      <p class="team__single-section--backPage__title">Adobe Photoshop <span
-                          class="team__single-section--backPage__percent90">90&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <p class="team__single-section--backPage__title">Adobe Illustrator <span
-                          class="team__single-section--backPage__percent80">80&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <p class="team__single-section--backPage__title">After Effect <span
-                          class="team__single-section--backPage__percent70">70&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                      <div class="social-icons">
-                        <ul>
-                          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="thumbnail">
-                <img src="assets/images/team-3.png" alt="">
-                <h4 class="team__single-section__name">PAULA R. MULLINS</h4>
-                <p class="team__single-section__title">FOUNDER</p>
-                <div class="team__overlay">
-                  <div class="team__overlay__content">
-                    <div class="team__single-section--backPage">
-                      <h4 style="padding-left: 0;" class="team__single-section__name">PAULA R. MULLINS</h4>
-                      <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                      <p class="team__single-section--backPage__title">Adobe Photoshop <span
-                          class="team__single-section--backPage__percent90">90&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <p class="team__single-section--backPage__title">Adobe Illustrator <span
-                          class="team__single-section--backPage__percent80">80&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <p class="team__single-section--backPage__title">After Effect <span
-                          class="team__single-section--backPage__percent70">70&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                      <div class="social-icons">
-                        <ul>
-                          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="thumbnail">
-                <img src="assets/images/team-2.png" alt="">
-                <h4 class="team__single-section__name">LEONARD D. DOWNING</h4>
-                <p class="team__single-section__title">FOUNDER</p>
-                <div class="team__overlay">
-                  <div class="team__overlay__content">
-                    <div class="team__single-section--backPage">
-                      <h4 style="padding-left: 0;" class="team__single-section__name">LEONARD D. DOWNING</h4>
-                      <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                      <p class="team__single-section--backPage__title">Adobe Photoshop <span
-                          class="team__single-section--backPage__percent90">90&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <p class="team__single-section--backPage__title">Adobe Illustrator <span
-                          class="team__single-section--backPage__percent80">80&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <p class="team__single-section--backPage__title">After Effect <span
-                          class="team__single-section--backPage__percent70">70&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                      <div class="social-icons">
-                        <ul>
-                          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-6 col-lg-3">
-              <div class="thumbnail">
-                <img src="assets/images/team-3.png" alt="">
-                <h4 class="team__single-section__name">PAULA R. MULLINS</h4>
-                <p class="team__single-section__title">FOUNDER</p>
-                <div class="team__overlay">
-                  <div class="team__overlay__content">
-                    <div class="team__single-section--backPage">
-                      <h4 style="padding-left: 0;" class="team__single-section__name">PAULA R. MULLINS</h4>
-                      <p style="padding-left: 0;" class="team__single-section__title">FOUNDER</p>
-                      <p class="team__single-section--backPage__title">Adobe Photoshop <span
-                          class="team__single-section--backPage__percent90">90&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:90%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <p class="team__single-section--backPage__title">Adobe Illustrator <span
-                          class="team__single-section--backPage__percent80">80&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:80%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <p class="team__single-section--backPage__title">After Effect <span
-                          class="team__single-section--backPage__percent70">70&#37;</span></p>
-                      <div class="progress">
-                        <div class="progress-bar" role="progressbar" style="width:70%;background-color: #7F56FD;">
-                          <span class="progress-bar--dot-main"></span>
-                          <span class="progress-bar--dot"></span>
-                        </div>
-                      </div>
-                      <hr style="border: 0;border-bottom: 1px solid #ECEFF1;display:block;padding-top: 45px;">
-                      <div class="social-icons">
-                        <ul>
-                          <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-                          <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-                          <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section> -->
-
-    <!-- <section class="brand-logo brand-logo--bg">
-      <div class="container">
-        <div class="row">
-          <div class="brand-logo__wrapper">
-            <li><img class="img-responsive" src="assets/images/brand-1.png" alt=""></li>
-            <li><img class="img-responsive" src="assets/images/brand-2.png" alt=""></li>
-            <li><img class="img-responsive" src="assets/images/brand-3.png" alt=""></li>
-            <li><img class="img-responsive" src="assets/images/brand-4.png" alt=""></li>
-            <li><img class="img-responsive" src="assets/images/brand-1.png" alt=""></li>
-          </div>
-        </div>
-      </div>
-    </section> -->
+  </main>
 
 
-    <footer class="footer footer--bg" id="contact">
-      <div class="container text-center">
-        <h1 class="footer__title">CONTACTO</h1>
-        <ul class="footer__contact-information">
-          <li><a href="tel:1140456333"><i class="material-icons">phone</i> (+54) 11 4045 6333</a></li>
-          <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i>
-              micaela.n.garcia98@gmail.com</a></li>
-          <li><a href="#"><i class="material-icons">location_on</i> CABA, Argentina</a></li>
-        </ul>
-      </div>
-      <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
-      <div class="container text-center">
-        <!-- <div class="social-icon">
-          <ul>
-            <li><a href="#"><i class="flaticon-facebook-letter-logo"></i></a></li>
-            <li><a href="#"><i class="flaticon-twitter-logo"></i></a></li>
-            <li><a href="#"><i class="flaticon-behance-logo"></i></a></li>
-            <li><a href="#"><i class="flaticon-dribbble-logo"></i></a></li>
-          </ul>
-        </div> -->
-        <p class="footer__paragraph">Copyright &copy; 2025 Noelia Garcia, All Rights Reserved.</p>
-      </div>
-    </footer>
-  </div>
+  <footer class="footer footer--bg" id="contact">
+    <div class="container text-center">
+      <h1 class="footer__title">CONTACTO</h1>
+      <ul class="footer__contact-information">
+        <li><a href="tel:1140456333"><i class="material-icons">phone</i> (+54) 11 4045 6333</a></li>
+        <li><a href="mailto:sshariar458@gmail.com"><i class="material-icons">email</i>
+            micaela.n.garcia98@gmail.com</a></li>
+        <li><a href="#"><i class="material-icons">location_on</i> CABA, Argentina</a></li>
+      </ul>
+    </div>
+    <hr style="border: 0;border-top: 1px solid #525B60;display:block;margin-top: 40px;">
+    <div class="container text-center">
+      <p class="footer__paragraph">Copyright &copy; 2025 Noelia Garcia, All Rights Reserved.</p>
+    </div>
+  </footer>
 
-
-  <!-- <script>
-    $('a').click(function (e) {
-      e.preventDefault();
-    });
-
-    // calling mixitup
-    var mixer = mixitup(".portfolio");
-  </script> -->
 </body>
 
 </html>
